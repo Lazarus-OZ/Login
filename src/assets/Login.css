@@ -83,7 +83,6 @@ body{
     backdrop-filter: blur(10px);
     backdrop-filter: brightness(70%);
     outline:none;
-    border-radius: 30px;
     text-align: center;
     color: white;
 }
