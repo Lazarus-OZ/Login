@@ -189,24 +189,75 @@ input::placeholder{
         font-size: 0.7rem;
     }
 }
-@media (max-width:400px){
+@media (max-width:450px){
     .container{
-        width:350px;
+        width:370px;
     }
     .inputs input{
-        width: 220px;
+        width: 250px;
+        height: 35px;
+    }
+    input::placeholder{
+        font-size: 0.7rem ;
+    }
+    .submit{
+        padding: 8px 45px;
+    }
+    .forget-pass a{
+        font-size: 0.7rem;
+    }
+    .forget{
+        font-size: 0.7rem;
+    }
+    .footer{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width:390px){
+    .container{
+        width:300px;
+    }
+    .head-text{
+        font-size: 1rem ;
+    }
+    .inputs input{
+        width: 200px;
         height: 30px;
     }
     .submit{
-        padding: 6px 35px;
+        padding: 4px 30px;
     }
     .forget-pass a{
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
     .forget{
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
     .footer{
-        font-size: 0.6rem;
+        font-size: 0.5rem;
+    }
+}
+@media (max-width:300px){
+    .container{
+        width:260px;
+    }
+    .inputs input{
+        width: 160px;
+        height: 30px;
+    }
+    input::placeholder{
+        font-size: 0.4rem ;
+    }
+    .submit{
+        padding: 4px 25px;
+    }
+    .forget-pass a{
+        font-size: 0.4rem;
+    }
+    .forget{
+        font-size: 0.4rem;
+    }
+    .footer{
+        font-size: 0.4rem;
     }
 }
